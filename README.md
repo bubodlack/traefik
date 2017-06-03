@@ -137,7 +137,7 @@ Poi considerando che abbiamo scelto di avviare l'**interfaccia web* dobbiamo apr
 In ultimo bisogna fornire a traefik i file e le cartelle che gli servono per poter lavorare. Prima di tutto gli diamo **accesso al socket docker**,
  consecutivamente al **file di configurazione toml** creato poco fa ed in ultimo il file **acme.json** che *anche se vuoto* deve essere presente all'avvio del container, pena causare un errore che non farà funzionare traefik finché non risolto. 
 
- Infine la parte relativa allo stanziemento del network.
+ Infine la parte relativa allo stanziamento del network.
 
 ```yaml
 version: '2'
