@@ -3,7 +3,7 @@
 Træfik, a modern reverse proxy
 
 ## Prefazione
-Uno degli argomenti più discussi in ambito docker è la strategia da utilizzare per l'automatizzazione del  deploy delle proprie applicazioni, tra i vari step di un **deploy di un'applicazione web** vi è anche la necessità di esporla su internet mediante web server con l'ausilio accorrenza di un bilanciatore di nodi.
+Uno degli argomenti più discussi in ambito docker è la strategia da utilizzare per l'automatizzazione del  deploy delle proprie applicazioni, tra i vari step di un **deploy di un'applicazione web** vi è anche la necessità di esporla su internet mediante web server con l'ausilio all'occorrenza di un bilanciatore di nodi.
 
 Per far fronte a questo problema incominciai ad usare [nginx-proxy](https://github.com/jwilder/nginx-proxy) che in combo al container [docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) permettevano l'uno di rimappare i virtual servers di nginx per esporre in automatico il sito internet col giusto dominio mentre l'altro richiedeva e rinnovava i certificati per l'https associandoli automaticamente.
 Entrambi facevano ciò intercettando le chiamate di avvio e spegnimento dei container direttamente dal socket di docker che gli veniva opportunamente esposto dal sistema.
