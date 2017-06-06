@@ -1,6 +1,7 @@
 # traefik
 
-[logo]: https://d33wubrfki0l68.cloudfront.net/e29410f43273a18d40e1bd6e41641f5afdfc8057/eb7ca/traefik.logo.png "Logo"
+
+![alt text](https://d33wubrfki0l68.cloudfront.net/e29410f43273a18d40e1bd6e41641f5afdfc8057/eb7ca/traefik.logo.png "Logo")
 
 Træfik, a modern reverse proxy
 
